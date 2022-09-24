@@ -1,0 +1,24 @@
+Base path: 'F:/Program Files/Unity/2020.3.30f1/Editor/Data', plugins path 'F:/Program Files/Unity/2020.3.30f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=4520 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/BloomPrefilter.compute kernel=KMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=LOW_QUALITY SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=4159
+
+Cmd: compileComputeKernel
+  insize=2801 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/DepthOfFieldTileMax.compute kernel=KMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=FAR NEAR SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=3230
+
+Cmd: compileComputeKernel
+  insize=1637 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/DepthOfFieldPreCombineFar.compute kernel=KMainPreCombineFar cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=898
+
+Cmd: compileComputeKernel
+  insize=5437 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/DepthOfFieldGather.compute kernel=KMainNear cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<MAIN=KMainNear>,<NEAR=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=USE_TILES SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=2743
+
+Cmd: compileComputeKernel
+  insize=3901 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/DepthOfFieldCombine.compute kernel=KMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=FAR LOW_QUALITY SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1498
+
+Cmd: compileComputeKernel
+  insize=3901 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/DepthOfFieldCombine.compute kernel=KMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=LOW_QUALITY NEAR SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1309
+
+Cmd: compileComputeKernel
+  insize=8927 file=G:/gitshit/AnimVFX/AnimVFX/AnimVFX/Library/PackageCache/com.unity.render-pipelines.high-definition@10.9.0/Runtime/PostProcessing/Shaders/UberPost.compute kernel=Uber cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=VIGNETTE SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=5223
+
