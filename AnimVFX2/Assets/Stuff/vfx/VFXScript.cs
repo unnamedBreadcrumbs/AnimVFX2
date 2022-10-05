@@ -23,12 +23,18 @@ public class VFXScript : MonoBehaviour
 
     public Animator camanim;
 
+    public Light subL;
+    int LIntens = 0;
+    int LSpeed = 100000;
+
     void Start()
     {
         VFX.GetComponent<VisualEffect>();
 
         rend = GetComponent<Renderer>();
         rend.material.SetFloat("_lerpy", increase);
+
+        subL.intensity = LIntens;
         /*Monol = GetComponent<MeshRenderer>().sharedMaterial;
         Monol.SetFloat("lerpy", 5);
         Debug.Log(Monol);*/
@@ -89,6 +95,8 @@ public class VFXScript : MonoBehaviour
             Chrom.intensity.value = ChromIncrease;
             ChromIncrease += ((0.5f + Random.Range(-0.4f, 0.4f)) * Time.deltaTime);
 
+            subL.intensity += (LSpeed * Time.deltaTime);
+
             yield return null;
         }
         yield return new WaitForSeconds(1);
@@ -111,6 +119,8 @@ public class VFXScript : MonoBehaviour
             }
             Chrom.intensity.value = ChromIncrease;
             ChromIncrease -= ((0.5f + Random.Range(-0.4f, 0.4f)) * Time.deltaTime);
+
+            subL.intensity -= (LSpeed * Time.deltaTime);
 
             yield return null;
         }
