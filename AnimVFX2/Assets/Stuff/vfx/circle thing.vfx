@@ -18446,7 +18446,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":281.0980529785156,"g":0.0,"b":766.99609375,"a":1.0}'
+      m_SerializableObject: '{"r":639.7285766601563,"g":0.0,"b":840.4528198242188,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: BeamCol
