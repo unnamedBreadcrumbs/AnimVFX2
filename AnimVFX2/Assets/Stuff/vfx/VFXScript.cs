@@ -8,24 +8,35 @@ using UnityEngine.Rendering.HighDefinition;
 
 public class VFXScript : MonoBehaviour
 {
+    //Control
+    public bool Activation = false;
 
+    //VFXStuff
     public VisualEffect VFX;
 
-    //public Material Monol;
+    //material
     Renderer rend;
     float increase = 0f;
 
-    public bool Activation = false;
-    //bool deactivate = false;
-
+    //postPros
     public Volume postPros;
     float ChromIncrease = 0f;
 
+    //camera
     public Animator camanim;
 
+    //subsurface light
     public Light subL;
     int LIntens = 0;
     int LSpeed = 100000;
+
+    //vampire stuff
+    
+    public Animator Vampy;
+    public Animator Goon1;
+    public Animator Goon2;
+    public Animator GoonRun;
+    
 
     void Start()
     {
@@ -42,6 +53,10 @@ public class VFXScript : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && Activation == false)
+        {
+            Activation = true;
+        }
         if (Activation == true)
         {
             StartCoroutine(MonoSeq());
@@ -72,7 +87,21 @@ public class VFXScript : MonoBehaviour
     {
         bool done = false;
         Debug.Log("phase0");
-        camanim.SetBool("animtrig", true);
+        //camanim.SetBool("animtrig", true);
+        camanim.SetTrigger("test");
+
+        //vampy stuff
+        
+        Vampy.SetTrigger("AnimTrig");
+        yield return new WaitForSeconds(4);
+        GoonRun.SetTrigger("ah");
+        yield return new WaitForSeconds(3.2f);
+        Goon1.SetTrigger("Fall1Trig");
+        yield return new WaitForSeconds(5);
+        Goon2.SetTrigger("Fall2Trig");
+        
+        //vampy stuff
+
         yield return new WaitForSeconds(3.5f);
         Debug.Log("phase1");
         VFX.SendEvent("PhaseOne");
